@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    border-style: solid;    
+  }
+  
+.navbar a {
+    margin-left:auto;
+    margin-right: auto;
+    padding: 14px 20px;
+    
+  }
+
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .content {
+    float:none;
+    margin-left:auto;
+    margin-right: auto;
+    width: 15%;
+    padding: 30px;
+    border-style:outset;
+    border-width: 5px;
+  }
+
+  .col-25 {
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 80%;
+    margin-top: 6px;
+  }
